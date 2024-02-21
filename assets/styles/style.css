@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px 10px;
-    border-radius: 10px;
+    border-radius: 10px;    
 }
 .card .profile-photo{
     border-radius: 100px;
@@ -45,13 +45,21 @@
 }
 .social-media li{
     list-style: none;
+    padding: 4px;
 }
 .social-media button{
     background-color: #333333;
     color: #ffffff;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 3rem;
-    width: 20rem;
+    width: 18rem;
     font-family: 'Inter';
+    border: none;
 
+}
+.social-media button:hover{
+    background-color: #c4f82a;
+    color: #141414;
+    cursor: pointer;
+    font-weight: 700;
 }
